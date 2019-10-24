@@ -1,0 +1,9 @@
+ ˛∫æ   3 B  com/file/TrackOperation  java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this Lcom/file/TrackOperation; myadvice 1(Lorg/aspectj/lang/JoinPoint;Ljava/lang/Object;)V RuntimeVisibleAnnotations ,Lorg/aspectj/lang/annotation/AfterReturning; pointcut execution(* Operation.k*(..)) 	returning result	    java/lang/System   out Ljava/io/PrintStream;  additional concern
+  !   java/io/PrintStream " # println (Ljava/lang/String;)V % java/lang/StringBuilder ' Method Signature: 
+ $ )  # + - , org/aspectj/lang/JoinPoint . / getSignature ()Lorg/aspectj/lang/Signature;
+ $ 1 2 3 append -(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+ $ 5 6 7 toString ()Ljava/lang/String; 9 Result in advice:  ;  end of after returning advice... jp Lorg/aspectj/lang/JoinPoint; Ljava/lang/Object; 
+SourceFile TrackOperation.java $Lorg/aspectj/lang/annotation/Aspect; !               /     *∑ ±    
+                               s  s     ê     B≤ ∂ ≤ ª $Y&∑ (+π * ∂ 0∂ 4∂ ≤ ª $Y8∑ (,∂ 0∂ 4∂ ≤ :∂ ±    
+          #  9  A          B       B < =    B  >   ?    @      A  

@@ -1,0 +1,14 @@
+Êþº¾   3 G  com/file/Test  java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this Lcom/file/Test; main ([Ljava/lang/String;)V  Borg/springframework/context/support/ClassPathXmlApplicationContext  applicationContext.xml
+     (Ljava/lang/String;)V  opBean    .org/springframework/context/ApplicationContext   getBean &(Ljava/lang/String;)Ljava/lang/Object;   com/file/Operation	 " $ # java/lang/System % & out Ljava/io/PrintStream; ( calling m...
+ * , + java/io/PrintStream -  println
+  / 0 1 m ()I
+ * 3 - 4 (I)V 6 calling k...
+  8 9 1 k ; calling msg...
+  = >  msg args [Ljava/lang/String; context 0Lorg/springframework/context/ApplicationContext; e Lcom/file/Operation; 
+SourceFile 	Test.java !               /     *· ±    
+                    	       ¥     G» Y· L+¹  À M² !'¶ )² !,¶ .¶ 2² !5¶ )² !,¶ 7¶ 2² !:¶ ),¶ <±    
+   & 	    
+   	  
+ (  0  :  B  F          G ? @   
+ = A B   1 C D   E    F
